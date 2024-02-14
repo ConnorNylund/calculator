@@ -5,7 +5,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner( System.in );
-        System.out.println("enter in two whole numbers");
+        System.out.println("enter in two numbers");
         double x = scan.nextDouble();
         double y = scan.nextDouble();
         scan.nextLine();
