@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Calculator {
 
-
     public static void main(String[] args) {
         Scanner scan = new Scanner( System.in );
         System.out.println("enter in two numbers");
@@ -10,7 +9,7 @@ public class Calculator {
         double y = scan.nextDouble();
         scan.nextLine();
 
-        System.out.println("would you like to do addition, subtraction, multiplication, division?");
+        System.out.println("would you like to do Addition | Subtraction | Multiplication | Division?");
         String cmd = scan.nextLine();
         double t;
 
@@ -40,5 +39,4 @@ public class Calculator {
                 break;
         }
     }
-
 }
