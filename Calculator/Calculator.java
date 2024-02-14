@@ -28,8 +28,12 @@ public class Calculator {
                 System.out.println("Result: " + t);
                 break;
             case "division":
-                t = x / y;
-                System.out.println("Result: " + t);
+                if (y == 0) {
+                    System.out.println("Error: Divide by Zero");
+                } else {
+                    t = x / y;
+                    System.out.println("Result: " + t);
+                }
                 break;
             default:
                 System.out.println(cmd + " is not an option");
