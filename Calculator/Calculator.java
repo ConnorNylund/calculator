@@ -10,7 +10,7 @@ public class Calculator {
         double y = scan.nextDouble();
         scan.nextLine();
 
-        System.out.println("would you like to do addition or subtraction?");
+        System.out.println("would you like to do addition, subtraction, multiplication, division?");
         String cmd = scan.nextLine();
         double t;
 
@@ -21,6 +21,14 @@ public class Calculator {
                 break;
             case "subtraction":
                 t = x - y;
+                System.out.println("Result: " + t);
+                break;
+            case "multiplication":
+                t = x * y;
+                System.out.println("Result: " + t);
+                break;
+            case "division":
+                t = x / y;
                 System.out.println("Result: " + t);
                 break;
             default:
